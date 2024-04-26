@@ -1,6 +1,9 @@
 Api to use used :
+
 http://localhost:8080/country/{country Name}
+
 For e.g
+
 http://localhost:8080/country/United States of America
 
 ---------------------------------------------------------------------------------------------------
