@@ -10,13 +10,15 @@ http://localhost:8080/country/United States of America
 Response Output :
 
 List of Neighbour Country Having
-{
-        "name": Officail Name Of Neighbour Country,
-        "commonLanguage": Boolean field of sharing any common language,
-        "commonside": Boolean field of car driving same side,
-        "distance": approx distance between the two countries ,
-        "parentCountryName": The country which was queried
-}
+        {
+        
+                "name": Officail Name Of Neighbour Country,
+                "commonLanguage": Boolean field of sharing any common language,
+                "commonside": Boolean field of car driving same side,
+                "distance": approx distance between the two countries ,
+                "parentCountryName": The country which was queried
+                
+        }
 
 For e.g response for http://localhost:8080/country/United States of America
 
@@ -40,6 +42,7 @@ For e.g response for http://localhost:8080/country/United States of America
 Distance calculation ( Haversine formula ) :
 
 Calculated the approx distance between two countries using latitute and longitute given using the Haversine formula.
+
 ->Used the strategy pattern here thus we can use any other formula in future.
 
 -------------------------------------------------------------------------------------------------
